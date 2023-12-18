@@ -5,17 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-color: #FFFF;
-}
-
 header{
     display: flex;
-    width: 100%;
     height: 100%;
+    width: 100%;
     align-items: center;
     justify-content: space-around;
-    z-index: 10px;
     background-color: #FEC0CF;
 
 }
@@ -37,7 +32,8 @@ header{
     display: flex;
     justify-content: center;
     margin-left: -150px;
-    height: 50px;
+    border-radius: 50%;
+    height: 35px;
     width: 50px;
     cursor: pointer;
 }
@@ -62,7 +58,7 @@ ul li a:hover{
 
 .button-main button{
     width: 80px;
-    height: 50px;
+    height: 42px;
     margin-right: 100px;
     border-radius: 30px;
     border: none;
